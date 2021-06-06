@@ -1,0 +1,11 @@
+Thời gian xe bus B3 đi từ Đà Nẵng đến Huế ?
+
+( FIND-THE ?x ( RUN-TIME B3 DANANG HUE ?x ) )
+
+Xe bus nào đến thành phố Hồ Chí Minh ?
+
+( PRINT-ALL ?x ( ( BUS ?x ) ( ATIME ?x HCMC ?t ) ) )
+
+Xe bus nào đến thành phố Huế lúc 20:00HR ?
+( PRINT-ALL ?x ( ( BUS ?x ) ( ATIME ?x HUE 20:00HR ) ) )
+

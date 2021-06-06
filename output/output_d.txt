@@ -1,0 +1,26 @@
+Thời gian xe bus B3 đi từ Đà Nẵng đến Huế ?
+
+(∃ e1: (&
+    (ĐI e1)
+    (LSUBJ e1 (NAME b1 B3))
+    (TIME-QUERY e1 )
+    (FROM-LOC e1 (NAME n1 ĐÀ_NẴNG))
+    (TO-CITY e1 (NAME h1 HUẾ))
+))
+
+Xe bus nào đến thành phố Hồ Chí Minh ?
+
+(∃ e1: (&
+    (ĐẾN e1)
+    (WHICH-QUERY e1 (XE_BUS x1))
+    (TO-LOC e1 (NAME h1 HỒ_CHÍ_MINH))
+))
+
+Xe bus nào đến thành phố Huế lúc 20:00HR ?
+(∃ e1: (&
+    (ĐẾN e1)
+    (WHICH-QUERY e1 (XE_BUS x1))
+    (TO-LOC e1 (NAME h1 HUẾ))
+    (ARRIVE-TIME e1 (TIME-HOUR n1 20:00HR))
+))
+

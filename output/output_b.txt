@@ -1,0 +1,31 @@
+Thời gian xe bus B3 đi từ Đà Nẵng đến Huế ?
+
+ROOT---None
+    đi---root
+        xe_bus---lsubj
+            B3---<var>name
+        thời_gian---time-query
+        từ---from-loc
+            đà_nẵng---<var>name
+        đến---to-city
+            huế---<var>name
+
+Xe bus nào đến thành phố Hồ Chí Minh ?
+
+ROOT---None
+    đến---root
+        nào---which-query
+            xe_bus---lsubj
+        thành_phố---to-loc
+            hồ_chí_minh---<var>name
+
+Xe bus nào đến thành phố Huế lúc 20:00HR ?
+ROOT---None
+    đến---root
+        nào---which-query
+            xe_bus---lsubj
+        thành_phố---to-loc
+            huế---<var>name
+        lúc---arrive-time
+            20:00hr---<var>time-hour
+
